@@ -5,7 +5,7 @@ import java.awt.Component;
 import java.awt.Dimension;
 
 /**
- * This class creates a window for the project
+ * This class creates a window for the project.
  *
  * @version 1.0
  * @since 24/11/2019
@@ -13,12 +13,12 @@ import java.awt.Dimension;
  */
 public class Window extends JFrame {
 
-  private static Dimension SIZE;
+  private static Dimension SIZE; // Window size
 
   /**
-   * Window constructor
+   * Window constructor.
    * Set up title to "TransmiMaps" by default.
-   * Cet layout to null by default.
+   * Set layout to null by default.
    */
   public Window() {
     this.SIZE = new Dimension(0, 0); // Set window size
@@ -30,7 +30,7 @@ public class Window extends JFrame {
   }
 
   /**
-   * Sets window size
+   * Sets window size.
    *
    * @param dimension window dimension.
    */
@@ -45,10 +45,10 @@ public class Window extends JFrame {
   }
 
   /**
-   * Sets window size
+   * Sets window size.
    *
    * @param width  width for window.
-   * @param height height for window
+   * @param height height for window.
    */
   @Override
   public void setSize(int width, int height) {
