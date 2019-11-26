@@ -1,10 +1,10 @@
 package controllers;
 
+import views.tools.Button;
 import views.tools.Input;
 import views.tools.ScrollPane;
 import views.tools.Window;
 
-import javax.swing.JButton;
 import javax.swing.JPanel;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -43,8 +43,8 @@ public class Run {
     panel.add(input);
     input.setBounds(40, 20, 150, 68);
 
-    // Test button to change focus from input
-    JButton button = new JButton();
+    // Test button
+    Button button = new Button();
     button.setText("Clic me!");
     panel.add(button);
     button.setBounds(40, 90, 150, 40);
