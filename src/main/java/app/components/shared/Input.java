@@ -1,5 +1,6 @@
-package views.tools;
+package app.components.shared;
 
+import core.animations.PublicSetter;
 import org.jdesktop.core.animation.timing.Animator;
 import org.jdesktop.core.animation.timing.interpolators.SplineInterpolator;
 import org.jdesktop.swing.animation.timing.sources.SwingTimerTimingSource;

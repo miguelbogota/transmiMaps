@@ -1,31 +1,25 @@
-package controllers;
+package app;
 
-import views.tools.Button;
-import views.tools.Input;
-import views.tools.ScrollPane;
-import views.tools.Window;
+import app.components.shared.*;
+import app.core.models.User;
 
 import javax.swing.JPanel;
 import java.awt.Color;
 import java.awt.Dimension;
 
 /**
- * Run
+ * App
  *
  * @version 1.0
- * @since 24/11/2019
+ * @since 16/01/2020
  * @author Miguel Bogota
  */
-public class Run {
+public class App {
 
-  /**
-   * Main for the app
-   *
-   * @param args
-   */
-  public static void main(String[] args) {
+  // Test App
+  public App() {
 
-    // Test Window
+    // Test window
     Window window = new Window(); // Window creation
     window.setSize(new Dimension(800, 600)); // Set size for the window
     window.setting(false, null, true); // Configure the window

@@ -1,4 +1,4 @@
-package views.tools;
+package app.components.shared;
 
 import javax.swing.JButton;
 import java.awt.Color;

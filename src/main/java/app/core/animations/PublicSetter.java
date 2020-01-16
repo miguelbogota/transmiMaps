@@ -1,4 +1,4 @@
-package views.tools;
+package core.animations;
 
 import org.jdesktop.core.animation.timing.Animator;
 import org.jdesktop.core.animation.timing.KeyFrames;
