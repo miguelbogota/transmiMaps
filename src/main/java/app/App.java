@@ -1,7 +1,6 @@
 package app;
 
 import app.components.shared.*;
-import app.core.models.User;
 
 import javax.swing.JPanel;
 import java.awt.Color;
