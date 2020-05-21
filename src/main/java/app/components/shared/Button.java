@@ -98,7 +98,7 @@ public class Button extends JButton {
 
   @Override
   protected void paintBorder(Graphics g) {
-    //intentionally left blank
+    // Intentionally left blank
   }
 
 }

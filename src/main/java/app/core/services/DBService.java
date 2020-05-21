@@ -31,10 +31,10 @@ public class DBService {
     try {
       String URL = "jdbc:mysql://" + host + "/" + DB;
       Connection = DriverManager.getConnection(URL, user, pass);
-      return true; // Devolver que si se hizo conexion
+      return true; // Return that connection was successfully done
     } catch (Exception exc) {
-      exc.printStackTrace(); // Mostrar error
-      return false; // Devolver que la conexion no fue hecha
+      exc.printStackTrace(); // Show error
+      return false; // Return connection fail
     }
   }
 
