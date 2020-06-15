@@ -14,4 +14,4 @@ Maven project using MySQl for a basic swing app that shows all the different tra
 * **[LinkedIn.com/in/miguelbogota](https://www.linkedin.com/in/miguelbogota)**
 
 
-See also the list of [contributors](https://github.com/your/transmiMaps/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/miguelbogota/transmiMaps/graphs/contributors) who participated in this project.
